@@ -1,0 +1,252 @@
+/*  BODY  */
+body{
+    margin: 0;
+    background-color: #EFEFEF;
+}
+
+
+/*  HEADER  */
+.header{
+    background-color: #000;
+}
+.header-grid{
+    background-color: #000;
+    display: grid;
+    grid-template-columns: 30% 70%;
+    width: 300px;
+    margin: 0 auto;
+}
+.logo{
+    height: 70px;
+    margin: 0 auto;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.heading{
+    color: #FFF;
+    font-size: 16px;
+    font-family: 'Raleway', sans-serif;
+    margin: 0;
+    padding-top: 20px;
+    padding-left: 5px;
+}
+.header-link{
+    text-decoration: none;
+}
+
+
+/*  NAVBAR  */
+nav{
+    background-color: #F94545;
+    font-family: 'Oswald', sans-serif;
+}
+.navbar{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+.navbar-link{
+    display: block;
+    padding: 5px;
+}
+.navbar-link a{
+    text-decoration: none;
+    color: #FFF;
+    font-size: 20px;
+}
+
+
+/*  CONTENT 1 */
+.content-1{
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+    display: grid;
+}
+.content-1-box{
+    width: 80%;
+    background-color: rgba(239, 239, 239, 0.835);
+    margin: 0 auto;
+    padding: 5px;
+    border-radius: 10px;
+}
+
+
+
+/*  CONTENT 2  */
+.content-2{
+    width: 100%;
+    display: grid;
+    grid-template-columns: 100%;
+    background-color: #d1d1d1;
+}
+.info-tag{
+    margin: 0;
+    padding: 5px;
+    color: #fff;
+    background-color: #F94545;
+    font-family: 'Rubik', sans-serif;
+}
+.info-left, .info-right{
+    background-color: #F94545;
+    width: 90%;
+    margin: 0 auto;
+    margin-bottom: 25px;
+    border: #F94545 solid 2px;
+    box-shadow: 5px 7px #afafaf;
+}
+.news-header{
+    font-family: 'Oswald', sans-serif;
+    margin: 0;
+    padding: 5%;
+}
+
+
+/*  CONTENT 3  */
+.content-3{
+    width: 90%;
+    height: 150px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px; 
+    text-align: center;
+    font-family: 'Rubik', sans-serif;
+}
+
+
+/*  FOOTER  */
+.footer{
+    margin-top: 80px;
+    background-color: #000;
+    color: #FFF;
+    font-family: 'Rubik', sans-serif;
+    display: grid;
+    grid-template-rows: 50px 50px 50px;
+    grid-row-gap: 5px;
+    width: 100%;
+    text-align: center;
+}
+.icons{
+    display: flex;
+    margin: 0 auto;
+}
+
+
+/*  IMAGES  */
+.hero-image-1, .hero-image-2, .info-left-image, .info-right-image{
+    width: 100%;
+}
+.sm-icon{
+    height: 30px;
+    margin: 0;
+    padding: 10px;
+}
+
+
+/* EXTRAS */
+.divider{
+    height: 4px;
+    width: 40px;
+    background-color: #F94545;
+    margin: 0 auto;
+    border-radius: 10px;
+}
+.divider-2{
+    height: 2px;
+    width: 90%;
+    background-color: #797979;
+    border-radius: 10px;
+    margin: 0 auto;
+    margin-bottom: 10px;
+}
+.divider-4{
+    height: 2px;
+    width: 100%;
+    background-color: #797979;
+    border-radius: 10px;
+    margin: 0 auto;
+    margin-bottom: 10px;
+}
+.divider-3{
+    height: 3px;
+    width: 100%;
+    background-color: #F94545;
+    margin: 0 auto;
+}
+.button-1{
+    background-color: #F94545;
+    color: #FFF;
+    border: #FFF solid 2px;
+    border-radius: 10px;
+    font-family: 'Rubik', sans-serif;
+    width: 120px;
+    height: 40px;
+}
+
+.content-header{
+    font-family: 'Oswald', sans-serif;
+    margin: 0;
+    padding: 6px;
+}
+.content-para{
+    font-size: 15px;
+    font-family: 'Rubik', sans-serif;
+}
+
+
+
+/* COURSE GRID */
+.content-courses{
+    background-color: #e7e7e7;
+    margin: 0;
+    padding-top: 20px; 
+}
+.course-image{
+    width: 100%;
+}
+.course-grid{
+    display: grid;
+    grid-template-columns: 100%;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    grid-gap: 10px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+.course-grid-item{
+    margin: 0 auto;
+    background-color: #fff;
+    box-shadow: 0px 3px #afafaf;
+}
+.course-header{
+    font-family: 'Oswald', sans-serif;
+    color: #000;
+    text-align: center;
+    margin: 0;
+    font-size: 20px;
+}
+.course-info{
+    font-family: 'Rubik', sans-serif;
+    color: #000;
+    padding: 5px;
+    margin: 0;
+}
+
+
+/* CONTENT 4 */
+.content-4{
+    background-color: #fff;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+.content-4-box{
+    width: 90%;
+    margin: 0 auto;
+}
+.content-4-info{
+    font-family: 'Rubik', sans-serif;
+}
+.content-4-heading{
+    font-family: 'Oswald', sans-serif;
+}
